@@ -6,9 +6,9 @@
 Checkers Journey!
 ====================================
 
-=================================================================================================================================
-Implementation, Comparision and Analysis of Minimax Algorithm and Reinforcement Learning through Implementation in Checkers game
-=================================================================================================================================
+==========================================================================================================
+Implementation, Comparision and Analysis of Minimax Algorithm and Reinforcement Learning in Checkers game
+===========================================================================================================
 
 .. topic:: **Our Implementations Include:**
 
