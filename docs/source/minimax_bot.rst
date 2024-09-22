@@ -79,5 +79,6 @@ Minimax Bot
 .. topic:: **Observations**
 
      1. **Increased Depth, Increased Wins:** As the depth of the Minimax algorithm increases, the probability of the RL agent winning also tends to increase. This suggests that a deeper search horizon provides the Minimax agent with a greater advantage in evaluating the game state.
+     
      2. **Increased Depth, Slower Response:** A direct consequence of increasing the Minimax depth is a significant increase in the time required for the Minimax bot to compute its move. This is because the algorithm explores a larger number of possible game states as the depth grows.
 

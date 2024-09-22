@@ -71,8 +71,11 @@ Reinforcement Learning Bot
 .. topic:: **RL Bot Training by making it play against RL Agent**
 
      * In this training method, both agents learned concurrently, interacting and improving their strategies simultaneously.
+     
      * The Q-table, which stores the board state and corrosponding Q values, was saved to a JSON file.
+     
      * We conducted a comprehensive evaluation of our model by training it on different combination of parameters and opponents(Minimax and RL).This involved training the model on approximately 700,000 episodes, distributed across different files.
+     
      * We have gathered the statistical data by training our model against another RL agent for 100,000 episodes. During this training, we systematically varied the value of epsilon, a crucial parameter that controls the exploration-exploitation trade-off in reinforcement learning.
 
 
@@ -206,6 +209,9 @@ Reinforcement Learning Bot
 .. topic:: **Observations**
 
      1. **Consistent Performance:** The number of wins, losses, and draws remained relatively stable throughout the training process, indicating that both agents were learning at a similar pace. As the exploration rate decreased (epsilon decreased), more Q-values were updated, suggesting a shift towards exploitation.
+     
      2. **State Exploration:** A significant number of new Q-values were added to the Q-table during training. This indicates that the model was encountering previously unseen game states, highlighting the vast complexity of the checkers game.
+     
      3. **Dump lag:** Loading and dumping of Qtable from JSON file takes time. This is due to increase in file size.
+     
      4. **Training Depth:** The agent was able to achieve 100% accuracy against a Minimax agent with a depth of 1 very early in training. However, it struggled to maintain this level of performance against a Minimax agent with a depth of 2, suggesting that lot more training is necessary for it to play effectively.

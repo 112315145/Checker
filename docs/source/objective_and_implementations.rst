@@ -26,8 +26,11 @@ Objective and Implementations
 .. topic:: **Our Implementations**
 
      1. A 2 player Checkers game
+     
      2. Implementation of Minimax Bot
+     
      3. Implementation of Reinforcement Learning Bot(Q Learning)
+     
      4. Comparision and Analysis of these two bots against each other, human player and random agent
 
 

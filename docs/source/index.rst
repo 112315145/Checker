@@ -6,15 +6,18 @@
 Checkers Journey!
 ====================================
 
-========================================================================================================================
-To Learn, Compare and Analyze Minimax Algorithm and Reinforcement Learning through Implementation in Checkers game
-========================================================================================================================
+=================================================================================================================================
+Implementation, Comparision and Analysis of Minimax Algorithm and Reinforcement Learning through Implementation in Checkers game
+=================================================================================================================================
 
-.. topic:: **Our Implementations Include**
+.. topic:: **Our Implementations Include:**
 
      * 2 Player Checkers Game
+
      * Human vs Minimax Bot Game
+
      * Human vs Reinforcement Learning Bot(Q Learning) Game
+
      * Minimax vs RL Game
      
      *We Compared and Analysed the two Bots against each other, human player and random agent*
@@ -27,7 +30,8 @@ To Learn, Compare and Analyze Minimax Algorithm and Reinforcement Learning throu
    objective_and_implementations
    minimax_bot
    rl_bot
-   comparision_and_analysis
+   comparision
+   analysis
    :maxdepth: 2
    :caption: Contents:
 
